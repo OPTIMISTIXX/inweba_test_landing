@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 40px;
+  .footer__container {
+    padding: 45px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer__copyrights {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #003366;
+    margin-left: 5%;
+  }
+
+  .footer__nav {
+    display: flex;
+    gap: 38px;
+  }
+
+  .footer__nav-item {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #343434;
+  }
+}

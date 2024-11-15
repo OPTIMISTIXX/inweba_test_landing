@@ -1,0 +1,75 @@
+.our-courses {
+  font-family: Roboto;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__card-info-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #003366;
+    margin: 40px 0 0;
+  }
+
+  &__model {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #343434;
+  }
+
+  &__model-title {
+    margin: 16px 0 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    font-weight: 500;
+  }
+  &__model-item::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets/images/our-courses/our-courses__checkbox.svg");
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 12px;
+  }
+
+  &__model-item {
+    font-weight: 400;
+  }
+
+  &__price-middle {
+    background-color: #003366;
+    width: 2px;
+    height: 45px;
+  }
+
+  &__card-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #003366;
+    max-width: 209px;
+  }
+  &__card-button {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003366;
+    color: #fbfbfb;
+    padding: 14px 85px;
+  }
+}

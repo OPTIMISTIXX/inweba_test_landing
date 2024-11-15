@@ -1,0 +1,29 @@
+.about-us {
+  background-color: #fbfbfb;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    @include section-title;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    & > img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__top-text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #343434;
+  }
+}

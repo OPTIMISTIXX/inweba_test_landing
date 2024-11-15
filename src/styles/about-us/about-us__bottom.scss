@@ -1,0 +1,32 @@
+.about-us {
+  &__bottom {
+    display: flex;
+    gap: 25px;
+  }
+
+  &__right {
+    display: grid;
+    grid-template-areas:
+      "A A"
+      "B C";
+    column-gap: 24px;
+    row-gap: 30px;
+  }
+}
+
+.blue-card--1 {
+  grid-area: A;
+}
+
+.blue-card--2,
+.blue-card--3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-card--about-us {
+  padding: 34px;
+  border-radius: 14px;
+}

@@ -1,0 +1,22 @@
+.header__welcome {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 50px;
+
+  &-left {
+    background-color: #003366;
+    padding: 100px 80px;
+    border-radius: 20px;
+  }
+  &-right {
+    border-radius: 20px;
+  }
+
+  &-button {
+    background-color: #fbfbfb;
+    border-radius: 14px;
+    border: none;
+    padding: 14px 20px;
+    color: #003366;
+  }
+}

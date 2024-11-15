@@ -1,0 +1,25 @@
+.our-courses {
+  &__card-statistics {
+    margin-top: 40px;
+    display: flex;
+    gap: 12px;
+  }
+
+  &__card-statistic {
+    background-color: #eff3f7;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+  }
+
+  &__card-statistic-text {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #343434;
+  }
+}

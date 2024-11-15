@@ -1,13 +1,588 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miami</title>
-    <link rel="stylesheet" href="./styles/main.scss">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dickens Academy</title>
+    <link rel="stylesheet" href="./styles/main.scss" />
     <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <h1>Landing Page</h1>
+    <header class="header">
+      <div class="header__container container">
+        <nav class="header__nav">
+          <div class="header__logo">
+            <img
+              src="./assets/images/header/Logo.png"
+              alt="logo"
+              class="header__logo"
+            />
+          </div>
+          <ul class="header__list">
+            <li class="header__item"><a href="#">Home</a></li>
+            <li class="header__item"><a href="#">Courses</a></li>
+            <li class="header__item"><a href="#">About</a></li>
+            <li class="header__item"><a href="#">Contact us</a></li>
+          </ul>
+          <div class="header__login">
+            <button class="header__button">Login</button>
+          </div>
+        </nav>
+        <div class="header__welcome">
+          <div class="header__welcome-left blue-card">
+            <h1 class="header__welcome-title blue-card__title">
+              Welcome to Dickens Executive Coaching Academy
+            </h1>
+            <p class="header__welcome-subtitle blue-card__subtitle">
+              Your resource of choice for coaching education
+            </p>
+            <button class="header__welcome-button">Explore Courses</button>
+          </div>
+          <div class="header__welcome-right">
+            <div class="header__welcome-image">
+              <img
+                src="./assets/images/header/header__img.png"
+                alt="header__image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="advantages">
+        <div class="advantages__container container">
+          <div class="advantages__top">
+            <h1 class="advantages__top-title">ADVANTAGES</h1>
+          </div>
+          <div class="advantages__bottom">
+            <div class="advantages__bottom-card">
+              <img
+                src="./assets/images/advantages/advantages__icon-1.svg"
+                alt="icon-1"
+                class="advantages__bottom-image"
+              />
+              <h3 class="advantages__bottom-title">
+                Launch Your Coaching Career
+              </h3>
+              <p class="advantages__bottom-subtitle">
+                A comprehensive course track to ICF credentialing
+              </p>
+            </div>
+            <div class="advantages__bottom-card">
+              <img
+                src="./assets/images/advantages/advantages__icon-2.svg"
+                alt="icon-2"
+                class="advantages__bottom-image"
+              />
+              <h3 class="advantages__bottom-title">
+                Coaching in the workplace
+              </h3>
+              <p class="advantages__bottom-subtitle">
+                Serve as a thought leader within your organization
+              </p>
+            </div>
+            <div class="advantages__bottom-card">
+              <img
+                src="./assets/images/advantages/advantages__icon-3.svg"
+                alt="icon-3"
+                class="advantages__bottom-image"
+              />
+              <h3 class="advantages__bottom-title">
+                Continuing Coaching Education
+              </h3>
+              <p class="advantages__bottom-subtitle">
+                Beginner or a seasoned pro, you'll find a course right for you
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="about-us__container container">
+          <div class="about-us__top">
+            <h1 class="about-us__title">ABOUT US</h1>
+            <a href="#" class="about-us__link">
+              <img
+                src="./assets/images/about-us/about-us__arrow.svg"
+                alt="arrow"
+              />
+              <p class="about-us__top-text">Learn more</p>
+            </a>
+          </div>
+          <div class="about-us__bottom">
+            <div class="about-us__left">
+              <img
+                src="./assets/images/about-us/about-us__logo.svg"
+                alt="logo"
+                class="about-us__image"
+              />
+            </div>
+            <div class="about-us__right">
+              <div class="blue-card blue-card--1 blue-card--about-us">
+                <div class="blue-card__title">
+                  Hi, we’re Dickens Executive Coaching Academy
+                </div>
+                <div class="blue-card__subtitle">
+                  Lorem ipsum dolor sit amet consectetur. Odio nec dictum tortor
+                  id proin rhoncus elit. Orci lacus pellentesque ultrices ut
+                  aliquet non fusce faucibus dictumst. Massa sit aliquam quam
+                  urna nam. Maecenas massa varius scelerisque pellentesque.
+                  Vestibulum ut rhoncus iaculis eleifend. Euismod cras et tortor
+                  at pellentesque duis cursus donec.
+                </div>
+              </div>
+              <div class="blue-card blue-card--2 blue-card--about-us">
+                <div class="blue-card__title">5+</div>
+                <div class="blue-card__subtitle">
+                  years on the educational market
+                </div>
+              </div>
+              <div class="blue-card blue-card--3 blue-card--about-us">
+                <div class="blue-card__title">1000+</div>
+                <div class="blue-card__subtitle">successful graduates</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="our-courses">
+        <div class="our-courses__container container">
+          <div class="our-courses__title">Our courses</div>
+          <div class="our-courses__card">
+            <div class="our-courses__card-header">
+              <div class="our-courses__card-header-left">
+                <img
+                  alt="logo"
+                  src="./assets/images/our-courses/our-courses__star.svg"
+                  class="our-courses__card-icon"
+                />
+                <h3 class="our-courses__card-header-title">
+                  Level 1 (ACC Track) Experiential Executive Coaching Program
+                </h3>
+              </div>
+              <a href="#" class="our-courses__card-link">
+                <img
+                  src="./assets/images/about-us/about-us__arrow.svg"
+                  alt="arrow"
+                />
+                <p class="our-courses__card-header-text">Details</p>
+              </a>
+            </div>
+            <div class="our-courses__card-statistics">
+              <div class="our-courses__card-statistic">
+                <img
+                  src="./assets/images/our-courses/our-courses__clock.svg"
+                  alt="clock"
+                  class="our-courses__card-statistic-image"
+                />
+                <p class="our-courses__card-statistic-text">60-hour</p>
+              </div>
+              <div class="our-courses__card-statistic">
+                <img
+                  src="./assets/images/our-courses/our-courses__tv.svg"
+                  alt="clock"
+                  class="our-courses__card-statistic-image"
+                />
+                <p class="our-courses__card-statistic-text">Online</p>
+              </div>
+              <div class="our-courses__card-statistic">
+                <img
+                  src="./assets/images/our-courses/our-courses__book.svg"
+                  alt="clock"
+                  class="our-courses__card-statistic-image"
+                />
+                <p class="our-courses__card-statistic-text">English</p>
+              </div>
+            </div>
+            <div class="our-courses__card-info">
+              <h5 class="our-courses__card-info-title">
+                The Three Primary Coaching Program Models:
+              </h5>
+              <div class="our-courses__model">
+                <h6 class="our-courses__model-title">
+                  Level 1 (ACC Track) Experiential Executive Coaching Program
+                </h6>
+                <ul class="our-courses__model-list">
+                  <li class="our-courses__model-item">
+                    In-depth exploration of coaching foundations
+                  </li>
+                  <li class="our-courses__model-item">
+                    Mastery in effective communication strategies
+                  </li>
+                  <li class="our-courses__model-item">
+                    Proficiency in navigating ICF Core Competencies
+                  </li>
+                </ul>
+              </div>
+              <div class="our-courses__model">
+                <h6 class="our-courses__model-title">
+                  Level 1 (ACC Track) Experiential Executive Coaching Program
+                </h6>
+                <ul class="our-courses__model-list">
+                  <li class="our-courses__model-item">
+                    Illustrates how coaching candidates acquire the necessary
+                    skills, tips, tools, and techniques for certification
+                  </li>
+                  <li class="our-courses__model-item">
+                    Progresses from data intake to knowledge acquisition,
+                    understanding, and ultimately wisdom
+                  </li>
+                  <li class="our-courses__model-item">
+                    Through practice and repetition, candidates achieve
+                    competence and transcendence in their coaching abilities
+                  </li>
+                </ul>
+              </div>
+              <div class="our-courses__model">
+                <h6 class="our-courses__model-title">
+                  3.The Coaching Engagement Model
+                </h6>
+                <ul class="our-courses__model-list">
+                  <li class="our-courses__model-item">
+                    Provides a structured framework for coaching sessions
+                  </li>
+                  <li class="our-courses__model-item">
+                    Guides coaches and clients through phases of awareness,
+                    discovery, goal setting, approach determination, progress
+                    tracking, and success evaluation
+                  </li>
+                  <li class="our-courses__model-item">
+                    Serves as a roadmap for the engagement, fostering clarity
+                    and mutual expectations between coach and client
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="our-courses__card-price">
+              <p class="our-courses__price-left">Price</p>
+              <div class="our-courses__price-middle"></div>
+              <p class="our-courses__price-right">$6 499</p>
+            </div>
+            <button class="our-courses__card-button">JOIN</button>
+          </div>
+          <div class="our-courses__card">
+            <div class="our-courses__card-header">
+              <div class="our-courses__card-header-left">
+                <img
+                  alt="logo"
+                  src="./assets/images/our-courses/our-courses__star.svg"
+                  class="our-courses__card-icon"
+                />
+                <h3 class="our-courses__card-header-title">
+                  Level 2 (PCC Track) Experiential Executive Coaching Program
+                </h3>
+              </div>
+              <a href="#" class="our-courses__card-link">
+                <img
+                  src="./assets/images/about-us/about-us__arrow.svg"
+                  alt="arrow"
+                />
+                <p class="our-courses__card-header-text">Details</p>
+              </a>
+            </div>
+            <div class="our-courses__card-statistics">
+              <div class="our-courses__card-statistic">
+                <img
+                  src="./assets/images/our-courses/our-courses__clock.svg"
+                  alt="clock"
+                  class="our-courses__card-statistic-image"
+                />
+                <p class="our-courses__card-statistic-text">125 hours</p>
+              </div>
+              <div class="our-courses__card-statistic">
+                <img
+                  src="./assets/images/our-courses/our-courses__modules.svg"
+                  alt="clock"
+                  class="our-courses__card-statistic-image"
+                />
+                <p class="our-courses__card-statistic-text">9 modules</p>
+              </div>
+              <div class="our-courses__card-statistic">
+                <img
+                  src="./assets/images/our-courses/our-courses__tv.svg"
+                  alt="clock"
+                  class="our-courses__card-statistic-image"
+                />
+                <p class="our-courses__card-statistic-text">Online</p>
+              </div>
+              <div class="our-courses__card-statistic">
+                <img
+                  src="./assets/images/our-courses/our-courses__book.svg"
+                  alt="clock"
+                  class="our-courses__card-statistic-image"
+                />
+                <p class="our-courses__card-statistic-text">English</p>
+              </div>
+            </div>
+            <div class="our-courses__card-info">
+              <h5 class="our-courses__card-info-title">
+                The Three Primary Coaching Program Models:
+              </h5>
+              <div class="our-courses__model">
+                <h6 class="our-courses__model-title">
+                  1.The Coaching Certification Model
+                </h6>
+                <ul class="our-courses__model-list">
+                  <li class="our-courses__model-item">
+                    The program offers three pathways to proficiency: coaching,
+                    receiving coaching, or observing coaching sessions
+                  </li>
+                  <li class="our-courses__model-item">
+                    Emphasizes three core areas: ICF Ethics, ICF Regulations,
+                    and ICF Core Competencies
+                  </li>
+                  <li class="our-courses__model-item">
+                    Candidates focus on enhancing skills in performance
+                    coaching, behavioral coaching, and perceptual coaching
+                  </li>
+                </ul>
+              </div>
+              <div class="our-courses__model">
+                <h6 class="our-courses__model-title">
+                  2.The Coach’s Learning Model
+                </h6>
+                <ul class="our-courses__model-list">
+                  <li class="our-courses__model-item">
+                    Illustrates how coaching candidates acquire the necessary
+                    skills, tips, tools, and techniques for certification
+                  </li>
+                  <li class="our-courses__model-item">
+                    Progresses from data intake to knowledge acquisition,
+                    understanding, and ultimately wisdom
+                  </li>
+                  <li class="our-courses__model-item">
+                    Through practice and repetition, candidates achieve
+                    competence and transcendence in their coaching abilities
+                  </li>
+                </ul>
+              </div>
+              <div class="our-courses__model">
+                <h6 class="our-courses__model-title">
+                  3.The Coaching Engagement Model
+                </h6>
+                <ul class="our-courses__model-list">
+                  <li class="our-courses__model-item">
+                    Provides a structured framework for coaching sessions
+                  </li>
+                  <li class="our-courses__model-item">
+                    Guides coaches and clients through phases of awareness,
+                    discovery, goal setting, approach determination, progress
+                    tracking, and success evaluation
+                  </li>
+                  <li class="our-courses__model-item">
+                    Serves as a roadmap for the engagement, fostering clarity
+                    and mutual expectations between coach and client
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="our-courses__card-price">
+              <p class="our-courses__price-left">Price</p>
+              <div class="our-courses__price-middle"></div>
+              <p class="our-courses__price-right">$6 499</p>
+            </div>
+            <button class="our-courses__card-button">JOIN</button>
+          </div>
+        </div>
+      </section>
+      <section class="info-form form">
+        <div class="info-form__container container">
+          <div class="info-form__left">
+            <h1 class="info-form__title">
+              Companies, universities, directors and presidents
+            </h1>
+            <p class="info-form__subtitle">
+              If you'd like to learn more information about our work with large
+              organizations, let's schedule a call.
+            </p>
+          </div>
+          <form class="info-form__right">
+            <input placeholder="Name" type="text" class="info-form__input" />
+            <input placeholder="Email" type="email" class="info-form__input" />
+            <button class="info-form__button">Schedule a call</button>
+          </form>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="testimonials__container container">
+          <h1 class="testimonials__title">TESTIMONIALS</h1>
+          <div class="testimonials__cards">
+            <div class="testimonials__card">
+              <img
+                src="./assets/images/testimonials/photo_1.svg"
+                alt="photo_1"
+                class="testimonials__card-left"
+              />
+              <div class="testimonials__card-right">
+                <div class="testimonials__card-name">Name</div>
+                <div class="testimonials__card-role">Role Here</div>
+                <ul class="testimonials__card-stars">
+                  <li class="testimonials__card-star"></li>
+                  <li class="testimonials__card-star"></li>
+                  <li class="testimonials__card-star"></li>
+                  <li class="testimonials__card-star"></li>
+                  <li class="testimonials__card-star"></li>
+                </ul>
+                <div class="testimonials__card-description">
+                  Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit
+                  nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed
+                  sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est
+                  arcu odio vitae egestas. Porttitor urna.
+                </div>
+              </div>
+            </div>
+            <div class="testimonials__card">
+              <img
+                src="./assets/images/testimonials/photo_2.svg"
+                alt="photo_1"
+                class="testimonials__card-left"
+              />
+              <div class="testimonials__card-right">
+                <div class="testimonials__card-name">Name</div>
+                <div class="testimonials__card-role">Role Here</div>
+                <ul class="testimonials__card-stars">
+                  <li class="testimonials__card-star"></li>
+                  <li class="testimonials__card-star"></li>
+                  <li class="testimonials__card-star"></li>
+                  <li class="testimonials__card-star"></li>
+                  <li class="testimonials__card-star"></li>
+                </ul>
+                <div class="testimonials__card-description">
+                  Lorem ipsum dolor sit amet consectetur. Sed commodo lorem sit
+                  nec ut. Habitant mattis in vitae sagittis maecenas sed. Sed
+                  sit posuere sed sit rhoncus. Nunc leo eu volutpat laoreet est
+                  arcu odio vitae egestas. Porttitor urna.
+                </div>
+              </div>
+            </div>
+          </div>
+          <nav class="testimonials__nav">
+            <img
+              class="testimonials__nav-arrow-left"
+              src="./assets/images/testimonials/arrow__left.svg"
+              alt="arrow-left"
+            />
+            <ul class="testimonials__nav-pagination">
+              <li class="testimonials__nav-pagination-item">
+                <img
+                  src="./assets/images/testimonials/rectangle_nav.svg"
+                  alt="rectangle"
+                />
+              </li>
+              <li class="testimonials__nav-pagination-item">
+                <img
+                  src="./assets/images/testimonials/rectangle_nav__active.svg"
+                  alt="rectangle"
+                />
+              </li>
+              <li class="testimonials__nav-pagination-item">
+                <img
+                  src="./assets/images/testimonials/rectangle_nav.svg"
+                  alt="rectangle"
+                />
+              </li>
+              <li class="testimonials__nav-pagination-item">
+                <img
+                  src="./assets/images/testimonials/rectangle_nav.svg"
+                  alt="rectangle"
+                />
+              </li>
+            </ul>
+            <img
+              class="testimonials__nav-arrow-right"
+              src="./assets/images/testimonials/arrow__right.svg"
+              alt="arrow-right"
+            />
+          </nav>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="faq__container container">
+          <h1 class="faq__title">FAQ</h1>
+          <div class="faq-flex">
+            <div class="faq__left">
+              <div class="faq__left-card">
+                <div class="faq__left-top">
+                  <h3 class="faq__left-title">
+                    Lorem ipsum dolor sit amet consectetur. Bibendum proin
+                  </h3>
+                  <button class="faq__left-button button-minus"></button>
+                </div>
+                <div class="faq__left-middle"></div>
+                <div class="faq__left-bottom">
+                  Lorem ipsum dolor sit amet consectetur. Ipsum lacus nulla in
+                  eget sit. Lacus iaculis sed mollis mi massa tortor scelerisque
+                  sed amet. Turpis et sit tincidunt eget. Dolor nisl fermentum
+                  cras erat nisl facilisis. Et.
+                </div>
+              </div>
+              <div class="faq__left-card">
+                <div class="faq__left-top">
+                  <h3 class="faq__left-title">
+                    Lorem ipsum dolor sit amet consectetur. Bibendum proin
+                  </h3>
+                  <button class="faq__left-button button-plus"></button>
+                </div>
+              </div>
+              <div class="faq__left-card">
+                <div class="faq__left-top">
+                  <h3 class="faq__left-title">
+                    Lorem ipsum dolor sit amet consectetur. Bibendum proin
+                  </h3>
+                  <button class="faq__left-button button-plus"></button>
+                </div>
+              </div>
+              <div class="faq__left-card">
+                <div class="faq__left-top">
+                  <h3 class="faq__left-title">
+                    Lorem ipsum dolor sit amet consectetur. Bibendum proin
+                  </h3>
+                  <button class="faq__left-button button-plus"></button>
+                </div>
+              </div>
+            </div>
+            <div class="faq__right">
+              <div class="faq__right-title">ASK YOUR QUESTION</div>
+              <div class="faq__right-line"></div>
+              <form action="#" class="faq__right-form">
+                <input
+                  placeholder="Name"
+                  type="text"
+                  class="faq__right-input"
+                />
+                <input
+                  placeholder="Email"
+                  type="email"
+                  class="faq__right-email"
+                />
+                <textarea
+                  placeholder="Enter Your Question Here ....."
+                ></textarea>
+                <button class="faq__right-button">Send your message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="footer">
+      <div class="footer__container container">
+        <img
+          src="./assets/images/header/Logo.png"
+          alt="logo"
+          class="footer__logo"
+        />
+
+        <h3 class="footer__copyrights">
+          © 2024 Dickens Consulting Group, LLC
+        </h3>
+        <div class="footer__nav">
+          <a href="#" class="footer__nav-item">Course</a>
+          <a href="#" class="footer__nav-item">About</a>
+          <a href="#" class="footer__nav-item">Contact</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

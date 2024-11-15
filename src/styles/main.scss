@@ -1,3 +1,62 @@
 body {
   margin: 0;
 }
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  border: none;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.blue-card {
+  background-color: #003366;
+  border-radius: 20px;
+  &__title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    text-align: left;
+    color: #fbfbfb;
+  }
+  &__subtitle {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #fbfbfb;
+  }
+}
+
+@import "./mixins.scss";
+@import "./header/header__nav.scss";
+@import "./header/header__welcome.scss";
+@import "./advantages/advantages.scss";
+@import "./about-us/about-us__top.scss";
+@import "./about-us/about-us__bottom.scss";
+@import "./our-courses/our-courses.scss";
+@import "./our-courses/our-courses__header.scss";
+@import "./our-courses/our-courses__info.scss";
+@import "./our-courses/our-courses__statistic.scss";
+@import "./info-form/info-form.scss";
+@import "./testimonials/testimonials.scss";
+@import "./faq/faq__left.scss";
+@import "./faq/faq__right.scss";
+@import "./footer/footer.scss";

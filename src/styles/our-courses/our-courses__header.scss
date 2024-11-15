@@ -1,0 +1,36 @@
+.our-courses {
+  &__title {
+    @include section-title;
+  }
+  &__card {
+    border: 2px solid #003366;
+    padding: 40px;
+    border-radius: 20px;
+  }
+  &__card-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card-header-left {
+    display: flex;
+    gap: 14px;
+    flex-grow: 1;
+  }
+  &__card-link {
+    align-items: center;
+    gap: 10px;
+    & > img {
+      width: 40px;
+      height: 40px;
+    }
+    display: flex;
+  }
+  &__card-header-text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #343434;
+  }
+}

@@ -1,0 +1,45 @@
+.advantages {
+  background-color: #e0e7ef;
+  font-family: "Poppins";
+
+  &__container {
+    padding: 50px;
+  }
+
+  &__top {
+    background-color: #fbfbfb;
+    border-radius: 16px;
+    padding: 30px 50px;
+    margin-bottom: 20px;
+  }
+
+  &__bottom {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__top-title {
+    @include section-title;
+  }
+
+  &__bottom-card {
+    text-align: center;
+    background-color: #fbfbfb;
+    border-radius: 14px;
+    padding: 30px;
+  }
+  &__bottom-title {
+    color: #003366;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+
+  &__bottom-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #343434;
+    font-family: "Roboto";
+  }
+}
